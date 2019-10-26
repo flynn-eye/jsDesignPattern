@@ -17,6 +17,11 @@
 // targetCircle.transform("音乐MP3")
 // targetRect.transform("电影MP3")
 //装饰器模式
-import {Decorator,Fish,Pork} from "./decorator/decorator";
-let decorator = new Decorator([new Fish(),new Pork()])
+// import {Decorator,Fish,Pork} from "./decorator/decorator";
+// let decorator = new Decorator([new Fish(),new Pork()])
+//代理模式
+// import {Person} from "./proxy/proxy";
+//     let p = new Person("zy")
+// p.eat()//不代理
+// p.useEle()//代理
 
