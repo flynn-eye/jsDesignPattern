@@ -10,3 +10,9 @@
 // let obj1 = Singleton.instance()
 // let obj2 = Singleton.instance()
 // console.log(obj1===obj2,obj1===objFalse)
+//适配器模式
+import {TargetCircle ,TargetRect} from "./adaptee/adaptee";
+let targetCircle = new TargetCircle()
+let targetRect = new TargetRect()
+targetCircle.transform("音乐MP3")
+targetRect.transform("电影MP3")
