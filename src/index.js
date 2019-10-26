@@ -11,8 +11,12 @@
 // let obj2 = Singleton.instance()
 // console.log(obj1===obj2,obj1===objFalse)
 //适配器模式
-import {TargetCircle ,TargetRect} from "./adaptee/adaptee";
-let targetCircle = new TargetCircle()
-let targetRect = new TargetRect()
-targetCircle.transform("音乐MP3")
-targetRect.transform("电影MP3")
+// import {TargetCircle ,TargetRect} from "./adaptee/adaptee";
+// let targetCircle = new TargetCircle()
+// let targetRect = new TargetRect()
+// targetCircle.transform("音乐MP3")
+// targetRect.transform("电影MP3")
+//装饰器模式
+import {Decorator,Fish,Pork} from "./decorator/decorator";
+let decorator = new Decorator([new Fish(),new Pork()])
+
