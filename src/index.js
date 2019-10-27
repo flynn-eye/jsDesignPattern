@@ -24,4 +24,9 @@
 //     let p = new Person("zy")
 // p.eat()//不代理
 // p.useEle()//代理
-
+//观察者模式
+import {Observer,Subject} from "./observer/observer";
+let sub = new Subject()
+let obj1 = new Observer("qw",sub)
+let obj2 = new Observer("zy",sub)
+sub.setState(96)
