@@ -25,8 +25,34 @@
 // p.eat()//不代理
 // p.useEle()//代理
 //观察者模式
-import {Observer,Subject} from "./observer/observer";
-let sub = new Subject()
-let obj1 = new Observer("qw",sub)
-let obj2 = new Observer("zy",sub)
-sub.setState(96)
+// import {Observer,Subject} from "./observer/observer";
+// let sub = new Subject()
+// let obj1 = new Observer("qw",sub)
+// let obj2 = new Observer("zy",sub)
+// sub.setState(96)
+//迭代器模式 顺序访问一个聚合对象中每个元素，并且不暴露该对象内部。
+// import {Container} from "./Iterator/iterator";
+// let arr1 = [1,2,3]
+// let arr2= [
+//     {
+//         name:'a',
+//         age:21
+//     },{
+//     name:'b',
+//         age:22
+//     },{
+//     name:'c',
+//         age:23
+//     }
+// ]
+// let con1 = new Container(arr1)
+// let it1 = con1.getIterator()
+// let con2 = new Container(arr2)
+// let it2 = con2.getIterator()
+// while(it1.hasNext()){
+//     console.log(it1.next())
+// }
+// while(it2.hasNext()){
+//     console.log(it2.next())
+// }
+
